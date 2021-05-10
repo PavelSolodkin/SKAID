@@ -1,0 +1,89 @@
+.lead 
+    display: flex
+    flex-direction: row
+    margin: 0 auto 25px
+    max-width: 100%
+    min-height: 319px
+    .lead__banner 
+        width: 511px;
+        min-height: 319px
+        background-blend-mode: soft-light
+        background-image: url(../../img/banner.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        background-color: rgba(253, 255, 140, 0.49)
+    .lead__bg 
+        width: 255px;
+        min-height: 319px
+        background-color: #0078dc
+        margin-right: 14px
+    .lead__quotes 
+        width: 180px
+        min-height: 319px
+        background-color: #c4c4c4
+        display: flex
+        align-items: center
+        justify-content: center
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 959px) 
+  .lead 
+    min-height: 320px
+    padding: 0 20px 0 20px
+    .lead__banner 
+        width: 546px
+        margin: 0
+    .lead__bg 
+         display: none
+    .lead__quotes 
+        width: 180px
+        min-height: 319px
+        background-color: #c4c4c4
+        display: flex
+        align-items: center
+        justify-content: center
+        margin: 0
+  
+
+
+@media (min-width: 414px) and (max-width: 767px) 
+  .lead 
+    max-width: 100%
+    min-height: 258px
+    flex-direction: column
+    .lead__banner 
+        width: 414px
+        min-height: 258px
+
+    .lead__bg 
+        display: none
+    .lead__quotes 
+        width: 394px
+        margin-top: 17px
+  
+  
+
+
+@media (min-width: 360px) and (max-width: 413px) 
+  .lead 
+    max-width: 100%
+    min-height: 224px
+    flex-direction: column
+    .lead__banner 
+        width: 360px
+        min-height: 224px
+    .lead__bg 
+        display: none
+    .lead__quotes 
+        width: 330px
+        margin-top: 21px
+  
+
+
+
+    
+
+
